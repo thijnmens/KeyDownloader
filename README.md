@@ -22,4 +22,4 @@ then you run the following commands:
   after this the downloads will start and you are done!
 
 # Questions
-just create an issue and i will respond as fast as possible
+just create an issue and i will respond as soon as possible
