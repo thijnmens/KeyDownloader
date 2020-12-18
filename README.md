@@ -6,7 +6,7 @@ Make sure you have the latest version of python installed, toghether with ModAss
 Then download the repository here https://github.com/thijnmens/KeyDownloader/archive/main.zip and unzip it.
 
 # Run the script
-To run the script, go to Modassistant and then the Settings tab, click the "Enable OneClick:tm: Installs" button and check the BeatSaver checkbox.
+To run the script, go to Modassistant and then the Settings tab, click the "Enable OneClick™ Installs" button and check the BeatSaver checkbox.
 then change "Show OneClick Installer Window" is set to "Close" or "No", when first running the program i reccomend setting it to "Close". 
 Once you verified that it works (you know that it works when a window pops up with the modassistant logo when running the program), set it to "No".
 
@@ -18,6 +18,7 @@ then you run the following commands:
     the first value is the first key that should be downloaded in decimal numbers.
     the second value is the delay between downloads, please keep this at the default value.
     the third value is the last key that should be downloaded in decimal numbers.
+    the fourth value is really handy if you want to start with all the latest songs instead of all those ppv1 songs.
   after this the downloads will start and you are done!
 
 # Questions
