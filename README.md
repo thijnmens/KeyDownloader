@@ -3,7 +3,7 @@ Downloads songs from beatsaver.com by key.
 
 # Instalation
 Make sure you have the latest version of python installed, toghether with ModAssistant. also make sure that BeatList is NOT installed.
-Then download the repository here https://github.com/thijnmens/KeyDownloader/archive/main.zip and unzip it.
+Then download the latest release here.
 
 # Run the script
 To run the script, go to Modassistant and then the Settings tab, click the "Enable OneClick™ Installs" button and check the BeatSaver checkbox.
@@ -19,6 +19,7 @@ then you run the following commands:
     the second value is the delay between downloads, please keep this at the default value.
     the third value is the last key that should be downloaded in decimal numbers.
     the fourth value is really handy if you want to start with all the latest songs instead of all those ppv1 songs.
+    the fifth value is the max amount of ram the program can use in precent.
   after this the downloads will start and you are done!
 
 # Questions
