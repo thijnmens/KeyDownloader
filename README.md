@@ -3,7 +3,7 @@ Downloads songs from beatsaver.com by key.
 
 # Instalation
 Make sure you have the latest version of python installed, toghether with ModAssistant. also make sure that BeatList is NOT installed.
-Then download the latest release here.
+Then download the latest release here https://github.com/thijnmens/KeyDownloader/releases/latest.
 
 # Run the script
 To run the script, go to Modassistant and then the Settings tab, click the "Enable OneClick™ Installs" button and check the BeatSaver checkbox.
