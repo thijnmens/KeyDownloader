@@ -10,11 +10,8 @@ To run the script, go to Modassistant and then the Settings tab, click the "Enab
 then change "Show OneClick Installer Window" is set to "Close" or "No", when first running the program i reccomend setting it to "Close". 
 Once you verified that it works (you know that it works when a window pops up with the modassistant logo when running the program), set it to "No".
 
-then open a command promt window, you can find this by typing in "cmd" into the windows search bar.
-then you run the following commands:
-  `CD <path>`, you replace `<path>` with the path to the download location of the script.
-  `python keydownloader.py` this will initiate the script.
-  now the program will ask you for some values:
+Now you are ready to run the file! jsut simple doubleclick keydownloader.py and you are ready to go.
+  before it can start the program will ask you for some values:
     the first value is the first key that should be downloaded in decimal numbers.
     the second value is the delay between downloads, please keep this at the default value.
     the third value is the last key that should be downloaded in decimal numbers.
