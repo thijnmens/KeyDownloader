@@ -34,17 +34,18 @@ count = int(input('Input the last reported count value here [Default: 0] : '))
 delay = int(input('Input the delay in seconds between each download [Default: 5] : '))
 maxim = int(input('Input the maximum amount of songs to download [Default: 72644] : '))
 rever = str(input('Do you want it to run backwards? [Y/N] : '))
-maxra = int(input('What is the maximum amount of ram that can be used by the system? [0~100] : '))
+maxra = float(input('What is the maximum amount of ram that can be used by the system? [0~100, decimals allowed] : '))
 url = 'beatsaver://'
 
 if(rever == 'N'):
     while(count < maxim):
         pro = psutil.Process(os.getpid())
-        ram = pro.memory_percent()
+        ram = pro.memory_percent() * 10
         if(ram > maxra):
             print('Ram usage is too high, waiting 30 seconds')
             print('Memory Usage: ', ram,'%')
             print('Memory Left: ', maxra - ram,'%')
+            print('---------------')
             time.sleep(30)
         else:
             count = count + 1
@@ -62,11 +63,12 @@ if(rever == 'N'):
 if(rever == 'Y'):
     while(maxim > count):
         pro = psutil.Process(os.getpid())
-        ram = pro.memory_percent()
+        ram = pro.memory_percent() * 10
         if(ram > maxra):
             print('Ram usage is too high, waiting 30 seconds')
             print('Memory Usage: ', ram,'%')
             print('Memory Left: ', maxra - ram,'%')
+            print('---------------')
             time.sleep(30)
         else:
             maxim = maxim - 1
