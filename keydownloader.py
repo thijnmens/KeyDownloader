@@ -2,7 +2,7 @@
 # Operation Steal BeatSavers Database #
 #######################################
 #      Created by: Thijnmens          #
-#         Version: 1.1.1              #
+#         Version: 1.1.2              #
 #######################################
 
 import webbrowser
@@ -12,7 +12,7 @@ import os
 import psutil
 
 print('---------------')
-print('Running version 1.1.1')
+print('Running version 1.1.2')
 print('Created by Thijnmens, pls don\' DDoS BeatSaver with this script thank you very much')
 print('---------------')
 print('Checking dependencies, please wait')
