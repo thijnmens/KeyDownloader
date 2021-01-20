@@ -10,14 +10,15 @@ To run the script, go to Modassistant and then the Settings tab, click the "Enab
 then change "Show OneClick Installer Window" is set to "Close" or "No", when first running the program i reccomend setting it to "Close". 
 Once you verified that it works (you know that it works when a window pops up with the modassistant logo when running the program), set it to "No".
 
-Now you are ready to run the file! jsut simple doubleclick keydownloader.py and you are ready to go.
-  before it can start the program will ask you for some values:
+Now you are ready to run the file! We are going to take the easy route and just fill in 'Y' on the first question and '5' in the second one. and thats all,t eh script is now running and installing the songs to your Beat Saber.
+
+If you choose the difficult option, but more customizable one, these are the values i reccomend:
     the first value is the first key that should be downloaded in decimal numbers.
     the second value is the delay between downloads, please keep this at the default value.
     the third value is the last key that should be downloaded in decimal numbers.
     the fourth value is really handy if you want to start with all the latest songs instead of all those ppv1 songs.
     the fifth value is the max amount of ram the program can use in precent.
-  after this the downloads will start and you are done!
+after this the downloads will start and you are done!
 
 # Questions
 just create an issue and i will respond as soon as possible
